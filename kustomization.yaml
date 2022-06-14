@@ -5,5 +5,5 @@ resources:
   - nodejsapp.yaml
 
 images:
-  - name: nodejs
+  - name: nodejsapp-1.0
     newTag: MYNEWTAG
