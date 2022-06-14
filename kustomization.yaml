@@ -6,7 +6,10 @@ resources:
 
 images:
   - name: nodejs-app
-    newTag: MYNEWTAG
+    newTag: IMAGE_TAG
   - name: nodejs-app
     newTag: v1
+    
+IMAGE_TAG=$(git rev-parse HEAD)
+sed -i "s/IMAGE_TAG/$/g" k8s-base/kustomization.yaml
 
