@@ -7,3 +7,6 @@ resources:
 images:
   - name: nodejs-app
     newTag: MYNEWTAG
+  - name: nodejs-app
+    newTag: v1
+
