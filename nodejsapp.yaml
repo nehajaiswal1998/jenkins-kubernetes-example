@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: nodejs-app
-        image: "neha8888/nodejs-app:IMAGE_TAG"
+        image: "neha8888/nodejs-app"
         ports:
           - containerPort: 3000
 ---
