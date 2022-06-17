@@ -19,7 +19,7 @@ replacements:
           kind: Deployment
         fieldPaths:
           # … match the image of container `nginx` …
-          - spec.template.spec.containers.[name=nginx].image
+          - spec.template.spec.containers.[name=nodejs-app].image
         options:
           # … but replace only the second part (image tag) when split by ":".
            delimiter: ":"
